@@ -67,10 +67,19 @@ section, footer {
   
   .main { grid-area: 1 / 2 / 2 / 5; }
   
+  .hero-img {
+    object-fit: cover;
+  }
+
+
   .left {
     justify-self: start;
     align-self: end;
     grid-area: 1 / 1 / 2 / 3;
+  }
+  .left .hero-img {
+    width: 200px; 
+    height: 300px; 
   }
   
   .right {
@@ -78,6 +87,11 @@ section, footer {
     align-self: start;
     grid-area: 1 / 4 / 2 / 6;
   }
+  .right .hero-img {
+    width: 250px; 
+    height: 200px; 
+  }
+  
   
 /* GALLERY GRID */
 
@@ -118,7 +132,15 @@ section, footer {
         font-size: 3rem;
         line-height: 90%;
     }
+    .left .hero-img {
+        width: 180px; 
+        height: 230px; 
+    }
 
+    .right .hero-img {
+        width: 200px; 
+        height: 230px; 
+    }
     .gallery {
         display: grid; 
         grid-auto-flow: row dense; 
@@ -132,12 +154,19 @@ section, footer {
           "."; 
         align-items: start; 
       }
+    .calendly-inline-widget {
+        /* mobile */
+        min-width:320px;
+        height:1100px;
+    }
 }
 
 /* CALENDLY */
 
-.mOUYF5ZmuNL6I7t0mSFg {
-    background-color: transparent !important; 
+.calendly-inline-widget {
+    /* mobile */
+    min-width:320px;
+    height:700px;
 }
 
 /* TABLE */

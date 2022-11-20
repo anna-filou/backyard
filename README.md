@@ -1,2 +1,1 @@
-# hairbox
- 
+# The Hair Box
