@@ -12,7 +12,10 @@ html {
 body {
     position: relative;
     background: #fbfcfd;
+    /* background-image: url("assets/marble-bg3.jpg"); */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(assets/marble-bg4.jpg);
     /* background: linear-gradient(180deg, rgba(246,235,221,1) 17%, rgba(228,215,184,1) 100%);  */
+    
 }
 .script {
     font-family: 'Script';
@@ -20,6 +23,8 @@ body {
     font-size: 5rem;
     line-height: 90%;
 }
+
+.gold { }
 
 .btn {
     height: 60px;
@@ -51,7 +56,7 @@ section, footer {
     top: 0;
     z-index: 999;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(20px);
 }
 
@@ -173,9 +178,9 @@ section, footer {
 /* TABLE */
 
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:rgb(211, 211, 211);border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-color:rgb(211, 211, 211);border-style:solid;border-width:1px;font-size:14px;
     overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:rgb(211, 211, 211);border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg th{border-color:rgb(211, 211, 211);border-style:solid;border-width:1px;font-size:14px;
     font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-cly1{text-align:left;vertical-align:middle}
 .tg .tg-ve69{background-color:#f2f2f2;font-weight:bold;text-align:left;vertical-align:middle}

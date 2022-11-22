@@ -16,23 +16,23 @@
 
     <nav class="sticky db ttc flex flex-row justify-between">
         <div>
-            <a href="#about" class="link dim purple mr3 mr4-ns f6 f5-ns dn dib-ns">About</a>
-            <a href="#services" class="link dim purple mr3 mr4-ns f6 f5-ns">Services</a>
-            <a href="#contact" class="link dim purple mr3 mr4-ns f6 f5-ns">Find us</a>
-            <a href="#book" class="link dim dark-green mr3 mr4-ns f6 f5-ns">Appointment</a>
+            <a href="#about" class="link dim gold fw5 mr3 mr4-ns f6 f5-ns dn dib-ns">About</a>
+            <a href="#services" class="link dim gold fw5 mr3 mr4-ns f6 f5-ns">Services</a>
+            <a href="#contact" class="link dim gold fw5 mr3 mr4-ns f6 f5-ns">Find us</a>
+            <a href="#book" class="link dim black fw5 mr3 mr4-ns f6 f5-ns">Appointment</a>
         </div>
-        <a href="#" class="link dim purple f6 f5-ns">🇸🇰&nbsp;Slovak</a>
+        <a href="#" class="link dim gold f6 f5-ns">🇸🇰&nbsp;Slovak</a>
     </nav>
 
 
     <section>
         <div id="about" class="mt4 mt0-l flex flex-row justify-between">
-            <img src="assets/hairbox-logo.svg" class="nb4 w-80 center ml0-ns w-40-ns" alt="Hair Box Logo">
+            <img src="assets/hairbox-logo-gold.svg" class="nb4 w-80 center ml0-ns w-40-ns" alt="Hair Box Logo">
             <a href="#book" class="btn dn flex-ns">Book an appointment</a>
         </div>
 
         <div id="about" class="flex flex-column-reverse flex-row-l justify-between items-end-l pt5 mt5 mt0-l mb5">
-            <div class="ml5-ns mb4 pr3">
+            <div class="ml5-ns mt4 mb4 pr3">
                 <div class="measure center measure-narrow-l lh-copy f5">
                     <p><strong>The Hair Box</strong> is located on the edge of the Little Carpathians in the heart of Rača.</p>
                     <p>This place is different than other glossy and luxurious salons.</p>
@@ -64,7 +64,7 @@
                     <img src="assets/inside-table.jpg" alt="" class="hero-img relative nt3 z-0">
                 </div>
                 <div class="right-2">
-                    <img src="assets/golden-flower.png" alt="" class="hero-img absolute w5 right-0 z-2" style="bottom: -150px">
+                    <img src="assets/golden-flower.png" alt="" class="hero-img absolute w5 right-0 z-2" style="bottom: -100px">
                 </div>
               </div>
         </div>
@@ -73,13 +73,15 @@
     </section>
 
     <section>
-        <div class="gallery">
+        <!-- <div class="gallery">
             <img src="assets/straight-blond.jpg" alt="">
             <img src="assets/brown-curls.jpg" alt="">
             <img src="assets/red-straight-hair.jpg" alt="">
             <img src="assets/straight-ombres.jpg" alt="">
 
-        </div>
+        </div> -->
+
+        <img src="assets/hair-img-w-graphics.webp" class="dib center" alt="">
     </section>
 
     <section id="services">
@@ -216,8 +218,8 @@
             </div>
             <div class="w-50-l pl3 mt6">
                 <!-- <img src="assets/sticker-photo.png" alt=""> -->
-                <img src="assets/watercolor-swatches.jpg" alt="">
-                <img src="assets/decorative-tools.png" alt="" class="mt5">
+                <img src="assets/watercolor-swatches.png" alt="">
+                <img src="assets/hair-img-w-graphics-2.webp" alt="" class="mt5">
             </div>
         </div>
     </section>
@@ -226,7 +228,7 @@
     <section id="book">
         <h2 class="f1 lh-title fw2 tc">Book your <span class="script dib ml3">appointment</span></h2>
         <div class="measure-narrow tc center lh-copy">
-            <p>Call us at <a href="tel:+421919181883" class="f4">+421 919 18 18 83</a>
+            <p>Call us at <a href="tel:+421919181883" class="f4 gold">+421 919 18 18 83</a>
                 <br>or use our scheduling system below
                 <br>
                 <span class="o-40">(it only shows you available time slots!)</span>
@@ -241,7 +243,7 @@
 
         <!-- MOBILE -->
         <!-- Calendly inline widget begin -->
-        <div class="calendly-inline-widget db dn-ns" data-url="https://calendly.com/annafilou/30min?hide_gdpr_banner=1" style="min-width:320px;height:1100px;"></div>
+        <div class="calendly-inline-widget db dn-ns" data-url="https://calendly.com/annafilou/30min?hide_gdpr_banner=1" style="min-width:320px;height:1120px;"></div>
         <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
         <!-- Calendly inline widget end -->
 
@@ -273,7 +275,7 @@
         </div>
 
         
-        <div class="flex flex-column items-center flex-row-ns items-start-ns justify-center mv5">
+        <div class="flex flex-column items-center flex-row-ns items-start-ns justify-center mv5 lh-copy">
             <div class="flex flex-column flex-row-ns mb4 mr5-ns w5 w-auto-ns">
                 <h3 class="b dib mt0 mb2 f5 w4-ns ">Location</h3>
                 <div class="">
@@ -286,20 +288,18 @@
             <div class="flex flex-column w5 w-auto-ns">
                 <div class="flex flex-column flex-row-ns mb4">
                     <h3 class="b dib mt0 mb2 f5 w4-ns">Hours</h3>
-                    <div class="">
-                        Monday-Friday: 9:00-15:00 
+                    <div>
+                        <strong>Monday-Friday</strong>: 9:00-15:00 
                         <br>
-                        Saturday: by appointment
-                        <br>
-                        Sunday: by appointment
+                        <strong>Weekend</strong>: by appointment
                     </div>
                 </div>
         
                 <div class="flex flex-column flex-row-ns mb4">
                     <h3 class="b dib mt0 mb2 f5 w4-ns">Contact</h3>
                     <div class="">
-                        <a href="tel:+421919181883" class="dim purple db mb2">+421 919 18 18 83</a>
-                        <a href="mailto:" class="dim purple">info@TheHairBox.eu</a>
+                        <a href="tel:+421919181883" class="dim gold db mb2">+421 919 18 18 83</a>
+                        <a href="mailto:" class="dim gold">info@TheHairBox.eu</a>
                     </div>
                 </div>
             </div>  
