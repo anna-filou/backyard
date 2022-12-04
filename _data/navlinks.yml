@@ -1,0 +1,13 @@
+- en: Services
+  sk: Cenník
+  url: services
+- en: Products
+  sk: Produkty
+  url: products
+- en: Location
+  sk: Adresa
+  url: location
+- en: Reservation
+  sk: Objednajte si termin
+  url: reservation
+  below: '+421 919 18 18 83'

@@ -1,0 +1,72 @@
+hero:
+  text:
+    en: |-
+      In the center of Rača, on the edge of the Little Carpathians, you'll find the BackYard.
+
+      Unlike other glossy, luxurious salons, this one is unique.
+
+      The philosophy guiding our hairdressing container is to provide prompt, high-quality services in a welcoming, comfortable setting at reasonable prices.
+    sk: |-
+      V centre Rača, na okraji Malých Karpát, nájdete BackYard.
+
+      Na rozdiel od iných nablýskaných, luxusných salónov je tento jedinečný.
+
+      Filozofiou, ktorou sa riadi náš kadernícky kontajner, je poskytovať rýchle a kvalitné služby v príjemnom a pohodlnom prostredí za rozumné ceny.
+services: 
+  title: 
+    en: Services we offer
+    sk: Naše služby
+  tagline: 
+    en: price list
+    sk: cenník
+products: 
+  title: 
+    en: The products we use
+    sk: Produkty, ktoré používame
+  tagline: 
+    en: only the best for your hair
+    sk: len to najlepsie pre vase vlasy
+location: 
+  script: 
+    en: find us
+    sk: nájdete nás
+  title: 
+    en: Our location
+    sk: Naša poloha
+  button:
+    title: 
+      en: Google Maps
+      sk: Google Maps
+    url: https://maps.app.goo.gl/HAs5CwcnWjdGpJVK6
+hours:
+  title: 
+    en: Working Hours
+    sk: Otvarácie hodiny
+  lines: 
+    - days: 
+        en: Monday—Friday
+        sk: Pondelok–piatok
+      hours: 
+        en: 9:00–15:00
+        sk: 9:00–15:00
+    - days: 
+        en: Saturday & Sunday
+        sk: Sobota & Nedeľa
+      hours: 
+        en: by&nbsp;appointment
+        sk: na&nbsp;objednávku
+reservation:
+  script: 
+    en: Get your hair done
+    sk: Nechajte si urobit’ vlasy
+  title: 
+    en: Make a reservation
+    sk: Vykonajte rezerváciu
+  phone: +421 919 18 18 83
+footer: 
+  title:
+    en: Can’t wait for your next hair appointment?
+    sk: Neviete sa dočkať na další termím s vašimi vlasmi?
+  tagline:
+    en: We can't wait to meet you!
+    sk: Uz sa nevieme dockat’, kedy Vás stretneme!
