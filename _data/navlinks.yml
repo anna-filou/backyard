@@ -1,12 +1,12 @@
-- en: Services
-  sk: Cenník
-  url: services
 - en: Products
   sk: Produkty
   url: products
 - en: Location
   sk: Adresa
   url: location
+- en: Services
+  sk: Cenník
+  url: services
 - en: Reservation
   sk: Objednajte sa
   url: reservation

@@ -172,6 +172,13 @@ h2 {
     /* margin-top: 24px; */
 }
   
+
+hr {
+    border-top: 1px solid silver;
+    width: 50px;
+    /* padding: 0 40px; */
+}
+
 /* SMALL SCREENS */
 
 @media (max-width: 50em) {
@@ -194,7 +201,7 @@ h2 {
   }
 
   .price-grid {
-    row-gap: 10px;
+    /* row-gap: 10px; */
     grid-auto-columns: 1fr;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;

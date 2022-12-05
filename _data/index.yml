@@ -12,25 +12,6 @@ hero:
       Na rozdiel od iných nablýskaných, luxusných salónov je tento jedinečný.
 
       Filozofiou, ktorou sa riadi náš kadernícky kontajner, je poskytovať rýchle a kvalitné služby v príjemnom a pohodlnom prostredí za rozumné ceny.
-services: 
-  title: 
-    en: Services we offer
-    sk: Naše služby
-  tagline: 
-    en: price list
-    sk: cenník
-  hair: 
-    en: hair
-    sk: vlasy
-  hair-types:
-    en: 
-      - short
-      - medium
-      - long
-    sk: 
-      - krátke
-      - polodlhé
-      - dlhé
 products: 
   title: 
     en: The products we use

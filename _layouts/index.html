@@ -41,52 +41,6 @@ layout: default
     </div>
 </section>
 
-<section id="services" class="light pv6">
-    <div class="section">
-        <div class="flex flex-column flex-row-ns justify-between mb5">
-            <h2 class="f2 mb0">{{data.services.title[page.lang]}}</h2>
-            <div class="script f-headline pl6">{{data.services.tagline[page.lang]}}</div>
-        </div>
-
-
-        <div class="price-grid">
-
-            <h3 class="mv0 pv3 pl3 f3 bg-silver">Services</h3>
-            <div class="flex flex-row justify-around items-center f4 ttu sticky">
-                {%- for length in data.services.hair-types[page.lang] -%}
-                    <div class="flex flex-column items-center">
-                        <div class="b">{{length}}</div>
-                        <div class="o-70 fw3">{{data.services.hair[page.lang]}}</div>
-                    </div>
-                {%- endfor -%}
-            </div>
-
-            {%- for category in site.data.services -%}
-                {%- if category.name -%}
-                <h3 class="mv0 pv3 pl3 f3 bg-silver">{{category.name}}</h3>
-                <div></div>
-                {%- endif -%}
-
-                {%- for service in category.services -%}
-                <div class="bb-ns bw1-ns b--silver pt3 pb0 pb3-ns pl3">
-                    <h4 class="f4 mv0">{{service.name}}</h4>
-                    <div class="f4 o-70">{{service.tagline}}</div>
-                </div>
-                <div class="flex flex-row justify-around items-center f3 bb bw1 b--silver pt2 pt3-ns pb3 mb0-ns">
-                    {%- for price in service.prices -%}
-                    <div><span class="b">{{price}}</span> €</div>
-                    {%- endfor -%}
-                </div>
-                {%- endfor -%}
-                
-            {%- endfor -%}
-
-        </div>
-
-        <img src="/assets/services-deco.svg" alt="" class="db center mt6">
-    </div>
-</section>
-
 <section id="products" class="light pv6">
     <div class="section">
         <div class="flex flex-column flex-row-ns justify-between">
@@ -162,6 +116,57 @@ layout: default
             <a href="tel:{{data.reservation.phone | replace: ' ', ''}}" class="button f3 f2-ns grow mv4 mb0-ns"><span class="o-60">+421 </span>{{data.reservation.phone | remove_first: '+421'}}</a>
             <img src="/assets/reservation-deco-bottom.svg" alt="" class="mt5">
         </div>
+    </div>
+</section>
+
+<section id="services" class="light pv6">
+    <div class="section">
+        <div class="flex flex-column flex-row-ns justify-between mb5">
+            <h2 class="f2 mb0">{{site.data.services.title[page.lang]}}</h2>
+            <div class="script f-headline pl6">{{site.data.services.tagline[page.lang]}}</div>
+        </div>
+
+
+        <div class="price-grid">
+
+            <h3 class="mv0 pv3 pl3 f3 bg-black-10">Services</h3>
+            <div class="flex flex-row justify-around items-center f4 ttu sticky bg-black-10 pv2">
+                {%- for length in site.data.services.hair-types[page.lang] -%}
+                    <div class="flex flex-column items-center">
+                        <div class="b">{{length}}</div>
+                        <div class="o-70 fw3">{{site.data.services.hair[page.lang]}}</div>
+                    </div>
+                {%- endfor -%}
+            </div>
+
+            {%- for category in site.data.services.categories -%}
+                {%- if category.name -%}
+                <h3 class="mv0 pv3 pl3 f3 bg-black-10">{{category.name[page.lang]}}</h3>
+                <div class="mv0 pv3 pl3 f3 bg-black-10-ns bg-transparent"></div>
+                {%- endif -%}
+
+                {%- for service in category.services -%}
+                <div class="bb-ns bw1-ns b--silver pt3 pb0 pb3-ns pl3">
+                    <h4 class="f4 mv0">{{service.name[page.lang]}}</h4>
+                    <div class="f4 o-70">{{service.tagline[page.lang]}}</div>
+                </div>
+                <div class="flex flex-row justify-around items-center f3 bb bw1 b--silver pt3 pb4 pb3-ns mb3 mb0-ns">
+                    <!-- if a 2nd price exists, do nothing, else hr -->
+                    {%- if service.prices[2] -%}{%- else -%}<hr>{%- endif -%}
+                    {%- for price in service.prices -%}
+                    <div><span class="b">{{price}}</span>&nbsp;<span class="black-40">€</span></div>
+                    {%- endfor -%}
+                    {%- if service.prices[2] -%}{%- else -%}<hr>{%- endif -%}
+                </div>
+                {%- endfor -%}
+                
+            {%- endfor -%}
+
+        </div>
+        <div class="measure mt5 f4 fw3 ml3">
+            {{site.data.services.disclaimer[page.lang]}}
+        </div>
+        <img src="/assets/services-deco.svg" alt="" class="db center mt6">
     </div>
 </section>
 

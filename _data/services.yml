@@ -1,104 +1,206 @@
-- name:
-  services: 
-    - name: Wash & blow dry 
-      tagline: Straight / wavy
-      prices: 
-        - 10
-        - 15
-        - 20
-- name: Haircuts
-  services: 
-    - name: Undercut
-      tagline: including wash & blow dry
-      prices: 
-        - 15
-        - 20
-        - 25
-    - name: Refresh hair cut
-      tagline: including wash & blow dry
-      prices: 
-        - 20
-        - 25
-        - 30
-    - name: New cut
-      tagline: including wash & blow dry
-      prices: 
-        - 20
-        - 30
-        - 35
-    - name: Gentleman's haircut
-      tagline: with clipper + wash
-      prices: 
-        - 15
-- name: Curling
-  services: 
-    - name: as a separate service
-      tagline: 
-      prices: 
-        - 25
-    - name: after blow-drying
-      tagline:
-      prices: 
-        - 15
-- name: Straightening
-  services: 
-    - name: as a separate service
-      tagline: 
-      prices: 
-        - 10
-    - name: after blow-drying
-      tagline:
-      prices: 
-        - 5
-- name: Hair Dyeing
-  services: 
-    - name: Dyeing of roots
-      tagline: including blow dry
-      prices: 
-        - from 45
-    - name: Full hair dyeing
-      tagline: including blow dry
-      prices: 
-        - 55
-        - 65
-        - 75
-    - name: for each additional tube of dye
-      tagline: if your hair and look require more than one
-      prices: 
-        - + 10
-- name: Hair lightening / tinting / blow drying
-  services: 
-    - name: Simple lightening
-      tagline: 
-      prices: 
-        - 60
-        - 70
-        - 80
-    - name: baby highlights (bleaching of roots)
-      tagline: 
-      prices: 
-        - from 70
-    - name: ombré / balayage
-      tagline: 
-      prices: 
-        - 90
-        - 110
-        - 130
-    - name: full highlights
-      tagline: 
-      prices: 
-        - 110
-        - 140
-        - 160
-    - name: color change / bleaching
-      tagline: 
-      prices: 
-        - 100
-        - 160
-        - 200
-- name: Hair treatments
-  services: 
-    - name: Hair extensions and thickening 
-      tagline: using the micro-ring method
-      prices: 
-      - Prices are approximate, and depend on the number of extensions and the density, material, and length of hair.
+title: 
+  en: Services we offer
+  sk: Naše služby
+tagline: 
+  en: price list
+  sk: cenník
+hair: 
+  en: hair
+  sk: vlasy
+hair-types:
+  en: 
+    - short
+    - medium
+    - long
+  sk: 
+    - krátke
+    - polodlhé
+    - dlhé
+disclaimer:
+  en: (*) Prices are approximate, and depend on the number of extensions, the density, material, and length of hair.
+  sk: (*) Ceny sú orientačné a závisia od počtu predĺžení a hustoty, materiálu a dĺžky vlasov.
+categories:
+  - name:
+    services: 
+      - name: 
+          en: Wash & blow dry 
+          sk: Umytie & fúkaná
+        tagline: 
+          en: Straight / wavy
+          sk: do rovná / vlny na kefu
+        prices: 
+          - 10
+          - 15
+          - 20
+  - name: 
+      en: Haircuts
+      sk: Strihy
+    services: 
+      - name: 
+          en: Undercut
+          sk: Podstrihnutie
+        tagline:
+          en: including wash & blow dry
+          sk: + umytie + fúkaná
+        prices: 
+          - 15
+          - 20
+          - 25
+      - name:
+          en: Refresh hair cut
+          sk: Úprava strih
+        tagline:
+          en: including wash & blow dry
+          sk: + umytie + fúkaná
+        prices: 
+          - 20
+          - 25
+          - 30
+      - name:
+          en: New cut
+          sk: Zmena strih
+        tagline:
+          en: including wash & blow dry
+          sk: + umytie + fúkaná
+        prices: 
+          - 20
+          - 30
+          - 35
+      - name:
+          en: Gentleman's haircut
+          sk: Pansky strih
+        tagline:
+          en: with clipper + wash
+          sk: strojček + umývanie
+        prices: 
+          - 15
+  - name: 
+      en: Styling
+      sk: Styling
+    services: 
+      - name:
+          en: Curling
+          sk: Styling-natačanie
+        tagline:
+          en: as a separate service
+          sk: samostatné
+        prices: 
+          - 25
+      - name:
+          en: Curling
+          sk: Styling-natačanie
+        tagline:
+          en: after blow-drying
+          sk: po fúkanie
+        prices: 
+          - 15
+      - name:
+          en: Straightening
+          sk: Žehlenie vlasov
+        tagline:
+          en: as a separate service
+          sk: samostatné
+        prices: 
+          - 10
+      - name:
+          en: Straightening
+          sk: Žehlenie vlasov
+        tagline:
+          en: after blow-drying
+          sk: po fúkanie
+        prices: 
+          - 5
+  - name: 
+      en: Hair Dyeing
+      sk: Farbenie
+    services: 
+      - name:
+          en: Dyeing of roots
+          sk: Farbenie odrastov
+        tagline:
+          en: including blow dry
+          sk: + fúkaná
+        prices: 
+          - from 45
+      - name:
+          en: Full hair dyeing
+          sk: 
+        tagline: 
+          en: including blow dry
+          sk:
+        prices: 
+          - 55
+          - 65
+          - 75
+      - name:
+          en: for each additional tube of dye
+          sk: 
+        tagline: 
+          en: if your hair and look require more than one
+          sk:
+        prices: 
+          - + 10
+  - name:
+      en: Hair lightening / tinting
+      sk: 
+    services: 
+      - name:
+          en: Simple lightening
+          sk:
+        tagline:
+          en: including blow dry
+          sk:
+        prices: 
+          - 60
+          - 70
+          - 80
+      - name:
+          en: baby highlights (bleaching of roots)
+          sk:
+        tagline: 
+          en: including blow dry
+          sk:
+        prices: 
+          - from 70
+      - name: 
+          en: ombré / balayage
+          sk: ombré / balayage
+        tagline:
+          en: including blow dry
+          sk:
+        prices: 
+          - 90
+          - 110
+          - 130
+      - name: 
+          en: full highlights
+          sk:
+        tagline: 
+          en: including blow dry
+          sk:
+        prices: 
+          - 110
+          - 140
+          - 160
+      - name:
+          en: color change / bleaching
+          sk:
+        tagline: 
+          en: including blow dry
+          sk:
+        prices: 
+          - 100
+          - 160
+          - 200
+  - name: 
+      en: Hair treatments
+      sk: 
+    services: 
+      - name: 
+          en: Hair extensions and thickening 
+          sk:
+        tagline: 
+          en: using the micro-ring method
+          sk:
+        prices:
+          - (*)
