@@ -158,20 +158,47 @@ h2 {
     justify-items: center;
     align-items: center;
   }
+
+.price-grid {
+    /* -moz-box-pack: justify; */
+    column-gap: 0;
+    /* row-gap: 24px; */
+    width: 100%;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    /* margin-top: 24px; */
+}
   
 /* SMALL SCREENS */
 
-@media (max-width: 620px) {
+@media (max-width: 50em) {
 
+.section {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .logo-grid {  display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    gap: 40px 40px;
+    gap: 50px 50px;
     grid-auto-flow: row;
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
   }
+
+  .price-grid {
+    row-gap: 10px;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    justify-content: space-between;
+    }
   
 }

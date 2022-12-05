@@ -2055,6 +2055,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Uncomment out the line below to help debug layout issues */
 /* @import './_debug'; */
 @media screen and (min-width: 50em) { 
+
+  /* CUSTOM */
+ .minw-24-ns {min-width: 24em;}
+ 
  .aspect-ratio-ns { height: 0; position: relative; }
  .aspect-ratio--16x9-ns { padding-bottom: 56.25%; }
  .aspect-ratio--9x16-ns { padding-bottom: 177.77%; }

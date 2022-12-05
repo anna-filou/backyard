@@ -1,18 +1,18 @@
 <nav class="">
-    <div class="flex flex-row justify-end section f7">
+    <div class="flex flex-row justify-end f7 mt4 flex-wrap">
         {%- for link in site.data.navlinks -%}
-        <a class="link inline-flex flex-column w-auto ml3 ml4-ns dim" 
+        <a class="link inline-flex flex-column w-auto ml3 ml4-ns dim mb3" 
         href="#{{link.url}}">
-            <div class="dib">{{link[page.lang]}}</div>
+            <div class="dib {{link.class}}">{{link[page.lang]}}</div>
             {%- if link.below -%}
-            <div class="dib mt1">
+            <div class="dib mt1 {{link.below-class}}">
                 {{link.below}}
             </div>
             {%- endif -%}
         </a>
         {%- endfor -%}
 
-        <div class="link inline-flex flex-column w-auto ml4">
+        <div class="link inline-flex flex-column w-auto ml3 ml4-ns">
             <a href="/en" class="link dim fw3 {%- if page.url contains 'en' -%} b {%- endif -%} ">EN</a>
             <a href="/sk" class="b mt1 link dim fw3{%- if page.url contains 'sk' -%}b {%- if page.url contains 'en' -%} b {%- endif -%}{%- endif -%}">SK</a>
         </div>

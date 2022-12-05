@@ -19,6 +19,18 @@ services:
   tagline: 
     en: price list
     sk: cenník
+  hair: 
+    en: hair
+    sk: vlasy
+  hair-types:
+    en: 
+      - short
+      - medium
+      - long
+    sk: 
+      - krátke
+      - polodlhé
+      - dlhé
 products: 
   title: 
     en: The products we use
