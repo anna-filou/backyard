@@ -51,6 +51,12 @@ hours:
       hours: 
         en: by&nbsp;appointment
         sk: na&nbsp;objednávku
+    - days: 
+        en: Contact us
+        sk: Kontaktujte nás
+      hours: 
+        en: backyard.hairbox@gmail.com
+        sk: backyard.hairbox@gmail.com
 reservation:
   # script: 
   #   en: Get your hair done
