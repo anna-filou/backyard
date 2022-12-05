@@ -70,7 +70,7 @@ layout: default
         <div class="flex flex-column flex-row-ns items-center justify-around">
             <div class="w-50-ns flex flex-column items-center">
                 <div class="script f-subheadline ">{{data.location.script[page.lang]}}</div> 
-                <h2 class="f2 mv0">{{data.location.title[page.lang]}}</h2>
+                <!-- <h2 class="f2 mv0">{{data.location.title[page.lang]}}</h2> -->
                 <img src="/assets/location-deco.svg" alt="" class="mv5">
                 <a href="{{data.location.button.url}}" class="button f3 f2-ns dim">{{data.location.button.title[page.lang]}}</a>
             </div>
@@ -93,7 +93,7 @@ layout: default
     <div class="section">
         <div class="flex flex-column items-center tc">
             <img src="/assets/reservation-deco-top.svg" alt="" class="mb5">
-            <div class="script f1 f-subheadline-ns">{{data.reservation.script[page.lang]}}</div>
+            <!-- <div class="script f1 f-subheadline-ns">{{data.reservation.script[page.lang]}}</div> -->
             <h2 class="f2 white">{{data.reservation.title[page.lang]}}</h2>
             <a href="tel:{{data.reservation.phone | replace: ' ', ''}}" class="button f3 f2-ns grow mv4 mb0-ns"><span class="o-60">+421 </span>{{data.reservation.phone | remove_first: '+421'}}</a>
             <img src="/assets/reservation-deco-bottom.svg" alt="" class="mt5">

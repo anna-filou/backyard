@@ -7,11 +7,11 @@ hero:
 
       The philosophy guiding our hairdressing container is to provide prompt, high-quality services in a welcoming, comfortable setting at reasonable prices.
     sk: |-
-      V centre Rača, na okraji Malých Karpát, nájdete BackYard.
+      BackYard sa nachádza na okraji časti Malých Karpát v srdci Rači. Toto miesto je iné ako ostatné lesklé a luxusné saloný. 
+      
+      Filozofiou nášho malého kaderníckeho kontajnera je ziskať profesionálne služby za dostupné ceny v útulnom priateľskom prostredí ihned!
 
-      Na rozdiel od iných nablýskaných, luxusných salónov je tento jedinečný.
-
-      Filozofiou, ktorou sa riadi náš kadernícky kontajner, je poskytovať rýchle a kvalitné služby v príjemnom a pohodlnom prostredí za rozumné ceny.
+      Neviete sa dočkať na další termím s vašimi vlasmi? Už sa nevieme dočkať, kedy Vás stretneme!
 products: 
   title: 
     en: The products we use
@@ -23,9 +23,9 @@ location:
   script: 
     en: find us
     sk: nájdete nás
-  title: 
-    en: Our location
-    sk: Naša poloha
+  # title: 
+  #   en: Our location
+  #   sk: Naša poloha
   button:
     title: 
       en: Google Maps
@@ -49,12 +49,12 @@ hours:
         en: by&nbsp;appointment
         sk: na&nbsp;objednávku
 reservation:
-  script: 
-    en: Get your hair done
-    sk: Nechajte si urobit’ vlasy
+  # script: 
+  #   en: Get your hair done
+  #   sk: Nechajte si urobit’ vlasy
   title: 
     en: Make a reservation
-    sk: Vykonajte rezerváciu
+    sk: Objednajte si termin
   phone: +421 919 18 18 83
 footer: 
   title:
