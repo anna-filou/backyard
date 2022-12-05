@@ -3,11 +3,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ site.title }} | {{ site.tagline[page.lang] }}</title>
 
-<meta content="{% if page.description %}{{page.description}}{%else%}{{site.description[page.lang]}}{% endif %}" name="description">
+<meta content="{{site.description[page.lang]}}" name="description">
 <meta content="{{ site.title }} | {{ site.tagline[page.lang] }}" property="og:title">
-<meta content="{% if page.description %}{{page.description}}{%else%}{{site.description[page.lang]}}{% endif %}" property="og:description">
+<meta content="{{site.description[page.lang]}}" property="og:description">
 <meta content="{{ site.title }} | {{ site.tagline[page.lang] }}" property="twitter:title">
-<meta content="{% if page.description %}{{page.description}}{%else%}{{site.description[page.lang]}}{% endif %}" property="twitter:description">
+<meta content="{{site.description[page.lang]}}" property="twitter:description">
 <meta property="og:type" content="website">
 
 <!-- Meta images -->
