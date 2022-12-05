@@ -5,8 +5,12 @@
 # If you look in the HTML files, you will see them accessed via
 # {{ site.title }}, {{ site.email }}, and so on.
 title: Backyard
-description: >- # this means to ignore newlines until the next point
-  Hair Salon in Bratislava
+tagline:
+  en: Hair Salon in Bratislava
+  sk: Kaderníctvo v Bratislave
+description: 
+  en: V centre Rača, na okraji Malých Karpát, nájdete BackYard. Filozofiou, ktorou sa riadi náš kadernícky kontajner, je poskytovať rýchle a kvalitné služby v príjemnom a pohodlnom prostredí za rozumné ceny.
+  sk: In the center of Rača, on the edge of the Little Carpathians, you’ll find the BackYard. The philosophy guiding our hairdressing container is to provide prompt, high-quality services in a welcoming, comfortable setting at reasonable prices.
 
 # Build settings
 markdown: kramdown
