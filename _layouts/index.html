@@ -11,6 +11,7 @@ layout: default
         </div>
         <div class="flex flex-column-reverse flex-row-l items-center-l justify-between pb5">
             <div class="pl4-ns minw-24-ns">
+                <div class="script f-subheadline ">{{data.hero.about[page.lang]}}</div> 
                 <div class="measure measure-narrow-ns lh-copy f4 f5-ns">
                     {{data.hero.text[page.lang] | markdownify}}
                 </div>
