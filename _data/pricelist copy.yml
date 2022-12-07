@@ -1,184 +1,184 @@
 - name:
   services: 
-    - name: 
-        en: Wash & blow dry 
-        sk: Umytie & fúkaná
-      tagline: 
-        en: Straight / wavy
-        sk: do rovná / vlny na kefu
-      prices: 
-        - 10
-        - 15
-        - 20
+  - name: 
+      en: Wash & blow dry 
+      sk: Umytie & fúkaná
+    tagline: 
+      en: Straight / wavy
+      sk: do rovná / vlny na kefu
+    prices: 
+    - 10
+    - 15
+    - 20
 - name: 
     en: Haircuts
     sk: Strihy
   services: 
-    - name: 
-        en: Undercut
-        sk: Podstrihnutie
-      tagline:
-        en: including wash & blow dry
-        sk: + umytie + fúkaná
-      prices: 
-        - 15
-        - 20
-        - 25
-    - name:
-        en: Refresh hair cut
-        sk: Úprava strih
-      tagline:
-        en: including wash & blow dry
-        sk: + umytie + fúkaná
-      prices: 
-        - 20
-        - 25
-        - 30
-    - name:
-        en: New cut
-        sk: Zmena strih
-      tagline:
-        en: including wash & blow dry
-        sk: + umytie + fúkaná
-      prices: 
-        - 20
-        - 30
-        - 35
-    - name:
-        en: Gentleman's haircut
-        sk: Pansky strih
-      tagline:
-        en: with clipper + wash
-        sk: strojček + umývanie
-      prices: 
-        - 15
+  - name: 
+      en: Undercut
+      sk: Podstrihnutie
+    tagline:
+      en: including wash & blow dry
+      sk: + umytie + fúkaná
+    prices: 
+    - 15
+    - 20
+    - 25
+  - name:
+      en: Refresh hair cut
+      sk: Úprava strih
+    tagline:
+      en: including wash & blow dry
+      sk: + umytie + fúkaná
+    prices: 
+    - 20
+    - 25
+    - 30
+  - name:
+      en: New cut
+      sk: Zmena strih
+    tagline:
+      en: including wash & blow dry
+      sk: + umytie + fúkaná
+    prices: 
+    - 20
+    - 30
+    - 35
+  - name:
+      en: Gentleman's haircut
+      sk: Pansky strih
+    tagline:
+      en: with clipper + wash
+      sk: strojček + umývanie
+    prices: 
+    - 15
 - name: 
     en: Styling
     sk: Styling
   services: 
-    - name:
-        en: Curling
-        sk: Styling-natačanie
-      tagline:
-        en: as a separate service
-        sk: samostatné
-      prices: 
-        - 25
-    - name:
-        en: Curling
-        sk: Styling-natačanie
-      tagline:
-        en: after blow-drying
-        sk: po fúkanie
-      prices: 
-        - 15
-    - name:
-        en: Straightening
-        sk: Žehlenie vlasov
-      tagline:
-        en: as a separate service
-        sk: samostatné
-      prices: 
-        - 10
-    - name:
-        en: Straightening
-        sk: Žehlenie vlasov
-      tagline:
-        en: after blow-drying
-        sk: po fúkanie
-      prices: 
-        - 5
+  - name:
+      en: Curling
+      sk: Styling-natačanie
+    tagline:
+      en: as a separate service
+      sk: samostatné
+    prices: 
+    - 25
+  - name:
+      en: Curling
+      sk: Styling-natačanie
+    tagline:
+      en: after blow-drying
+      sk: po fúkanie
+    prices: 
+    - 15
+  - name:
+      en: Straightening
+      sk: Žehlenie vlasov
+    tagline:
+      en: as a separate service
+      sk: samostatné
+    prices: 
+    - 10
+  - name:
+      en: Straightening
+      sk: Žehlenie vlasov
+    tagline:
+      en: after blow-drying
+      sk: po fúkanie
+    prices: 
+    - 5
 - name: 
     en: Hair Dyeing
     sk: Farbenie
   services: 
-    - name:
-        en: Dyeing of roots
-        sk: Farbenie odrastov
-      tagline:
-        en: including blow dry
-        sk: + fúkaná
-      prices: 
-        - 45+
-    - name:
-        en: Full hair dyeing
-        sk: Farbenie celých vlasov
-      tagline: 
-        en: including blow dry
-        sk: + fúkaná
-      prices: 
-        - 55
-        - 65
-        - 75
-    - name:
-        en: for each additional tube of dye
-        sk: každa druha farba
-      tagline: 
-        en: if your hair and look require more than one
-        sk: ak vaše vlasy a vzhľad vyžadujú viac ako jedna
-      prices: 
-        - + 10
+  - name:
+      en: Dyeing of roots
+      sk: Farbenie odrastov
+    tagline:
+      en: including blow dry
+      sk: + fúkaná
+    prices: 
+    - 45+
+  - name:
+      en: Full hair dyeing
+      sk: Farbenie celých vlasov
+    tagline: 
+      en: including blow dry
+      sk: + fúkaná
+    prices: 
+    - 55
+    - 65
+    - 75
+  - name:
+      en: for each additional tube of dye
+      sk: každa druha farba
+    tagline: 
+      en: if your hair and look require more than one
+      sk: ak vaše vlasy a vzhľad vyžadujú viac ako jedna
+    prices: 
+      - + 10
 - name:
     en: Hair lightening / tinting
     sk: Melirovanie vlasov + tonovanie
   services: 
-    - name:
-        en: Simple lightening
-        sk: Jednoduchy melir
-      tagline:
-        en: including blow dry
-        sk: + fúkaná
-      prices: 
-        - 60
-        - 70
-        - 80
-    - name:
-        en: Baby highlights (bleaching of roots)
-        sk: Baby melir (odrasti)
-      tagline: 
-        en: including blow dry
-        sk: + fúkaná
-      prices: 
-        - 70+
-    - name: 
-        en: Ombré / balayage
-        sk: Ombré / balayage
-      tagline:
-        en: including blow dry
-        sk: + fúkaná
-      prices: 
-        - 90
-        - 110
-        - 130
-    - name: 
-        en: Full highlights
-        sk: Fullhead melir
-      tagline: 
-        en: including blow dry
-        sk: + fúkaná
-      prices: 
-        - 110
-        - 140
-        - 160
-    - name:
-        en: Color change / bleaching
-        sk: Zmena farba / odfarbovanie
-      tagline: 
-        en: including blow dry
-        sk: + fúkaná
-      prices: 
-        - 100
-        - 160
-        - 200
+  - name:
+      en: Simple lightening
+      sk: Jednoduchy melir
+    tagline:
+      en: including blow dry
+      sk: + fúkaná
+    prices: 
+    - 60
+    - 70
+    - 80
+  - name:
+      en: Baby highlights (bleaching of roots)
+      sk: Baby melir (odrasti)
+    tagline: 
+      en: including blow dry
+      sk: + fúkaná
+    prices: 
+      - 70+
+  - name: 
+      en: Ombré / balayage
+      sk: Ombré / balayage
+    tagline:
+      en: including blow dry
+      sk: + fúkaná
+    prices: 
+    - 90
+    - 110
+    - 130
+  - name: 
+      en: Full highlights
+      sk: Fullhead melir
+    tagline: 
+      en: including blow dry
+      sk: + fúkaná
+    prices: 
+    - 110
+    - 140
+    - 160
+  - name:
+      en: Color change / bleaching
+      sk: Zmena farba / odfarbovanie
+    tagline: 
+      en: including blow dry
+      sk: + fúkaná
+    prices: 
+    - 100
+    - 160
+    - 200
 - name: 
     en: Hair treatments
     sk: Vlasove kúry
   services: 
-    - name: 
-        en: Hair extensions and thickening 
-        sk: Predlžovanie a zahusťovanie
-      tagline: 
-        en: using the micro-ring method
-        sk: vlasov metoda micro-ring
-      prices:
-        - (*)
+  - name: 
+      en: Hair extensions and thickening 
+      sk: Predlžovanie a zahusťovanie
+    tagline: 
+      en: using the micro-ring method
+      sk: vlasov metoda micro-ring
+    prices:
+    - (*)
