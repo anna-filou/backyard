@@ -108,3 +108,5 @@ fields:
     name: sk
     label: sk
   description: This is a piece of text under the pricelist
+pages:
+- _data/services.yml
