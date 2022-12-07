@@ -2,29 +2,30 @@
 - id: basics
   name:
   services: 
-  - name: 
-      en: Wash & blow dry 
-      sk: Umytie & fúkaná
-    tagline: 
-      en: Straight / wavy
-      sk: do rovná / vlny na kefu
-    prices: 
-    - 10
-    - 15
-    - 20
+    - id: Umytie & fúkaná
+      name: 
+        en: Wash & blow dry 
+        sk: Umytie & fúkaná
+      tagline: 
+        en: Straight / wavy
+        sk: do rovná / vlny na kefu
+      prices: 
+        - 10
+        - 15
+        - 20
 - id: Strihy
   name: 
     en: Haircuts
     sk: Strihy
   services: 
-  - id: Podstrihnutie
-    name: 
-      en: Undercut
-      sk: Podstrihnutie
-    tagline:
-      en: including wash & blow dry
-      sk: + umytie + fúkaná
-    prices: 
-    - 15
-    - 20
-    - 25
+    - id: Podstrihnutie
+      name: 
+        en: Undercut
+        sk: Podstrihnutie
+      tagline:
+        en: including wash & blow dry
+        sk: + umytie + fúkaná
+      prices: 
+        - 15
+        - 20
+        - 25
