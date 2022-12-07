@@ -8,7 +8,7 @@ fields:
   fields:
   - type: field_group
     name: name
-    label: name
+    label: Service name
     fields:
     - type: text
       name: en
@@ -29,3 +29,8 @@ fields:
   - type: list
     name: prices
     label: prices
+    config:
+      use_select: false
+    description: "<strong>1 price</strong> = same price, regardless of hair length<br><strong>3
+      prices</strong> = 1 price for each hair length, in this order: short, medium,
+      long"
