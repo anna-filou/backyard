@@ -1,0 +1,17 @@
+---
+label: Navigation
+hide_body: true
+fields:
+- type: field_group_list
+  name: Navlinks
+  label: Navlinks
+  fields:
+  - type: text
+    name: en
+    label: en
+  - type: text
+    name: sk
+    label: sk
+  - type: text
+    name: url
+    label: url
