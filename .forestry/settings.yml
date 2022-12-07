@@ -5,6 +5,9 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _data/pricelist.yml
+  label: Pricelist
+- type: document
   path: _data/navlinks.yml
   label: Navigation
 - type: document
@@ -13,9 +16,6 @@ sections:
 - type: document
   path: _data/services.yml
   label: Services
-- type: document
-  path: _data/pricelist.yml
-  label: Pricelist
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
