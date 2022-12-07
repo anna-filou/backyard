@@ -1,7 +1,16 @@
 ---
 - name: category 1
   services:
-  - name: demo eng service name
+  # # this doesnt work:
+  # - name: demo eng service name
+  #     en: demo eng service
+  #     sk: slovak
+  # # this works but it has no name in forestry
+  # - name: 
+  #     en: demo eng service
+  #     sk: slovak
+  - id: demo
+    name:
       en: demo eng service
       sk: slovak
     tagline:
@@ -9,7 +18,8 @@
       sk: slovak description
     prices:
     - '1000'
-  - name:
+  - id: demo 2
+    name:
       en: Wash & blow dry
       sk: Umytie & fúkaná
     tagline:
