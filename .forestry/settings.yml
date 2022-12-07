@@ -7,6 +7,13 @@ sections:
 - type: document
   path: _data/navlinks.yml
   label: Navigation
+- type: document
+  path: _data/index.yml
+  label: Main
+  match: "**/*"
+- type: document
+  path: _data/services.yml
+  label: Services
   match: "**/*"
 - type: jekyll-pages
   label: Pages
