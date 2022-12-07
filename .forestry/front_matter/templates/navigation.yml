@@ -18,3 +18,5 @@ fields:
     hidden: true
   config:
     labelField: sk
+pages:
+- _data/navlinks.yml
