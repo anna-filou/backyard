@@ -23,7 +23,8 @@ categories:
     en: 
     sk: 
   services:
-  - name:
+  - id: Wash & blow dry
+    name:
       en: Wash & blow dry
       sk: Umytie & fúkaná
     tagline:
@@ -38,7 +39,8 @@ categories:
     en: Haircuts
     sk: Strihy
   services:
-  - name:
+  - id: Undercut
+    name:
       en: Undercut
       sk: Podstrihnutie
     tagline:
@@ -48,7 +50,8 @@ categories:
     - 15
     - 20
     - 25
-  - name:
+  - id: Refresh hair cut
+    name:
       en: Refresh hair cut
       sk: Úprava strih
     tagline:
@@ -58,7 +61,8 @@ categories:
     - 20
     - 25
     - 30
-  - name:
+  - id: New cut
+    name:
       en: New cut
       sk: Zmena strih
     tagline:
@@ -68,7 +72,8 @@ categories:
     - 20
     - 30
     - 35
-  - name:
+  - id: Gentleman's haircut
+    name:
       en: Gentleman's haircut
       sk: Pansky strih
     tagline:
@@ -81,7 +86,8 @@ categories:
     en: Styling
     sk: Styling
   services:
-  - name:
+  - id: Curling separate
+    name:
       en: Curling
       sk: Styling-natačanie
     tagline:
@@ -89,7 +95,8 @@ categories:
       sk: samostatné
     prices:
     - 25
-  - name:
+  - id: Curling after blow dry
+    name:
       en: Curling
       sk: Styling-natačanie
     tagline:
@@ -97,7 +104,8 @@ categories:
       sk: po fúkanie
     prices:
     - 15
-  - name:
+  - id: Straightening separate
+    name:
       en: Straightening
       sk: Žehlenie vlasov
     tagline:
@@ -105,7 +113,8 @@ categories:
       sk: samostatné
     prices:
     - 10
-  - name:
+  - id: Straightening after blow dry
+    name:
       en: Straightening
       sk: Žehlenie vlasov
     tagline:
@@ -118,7 +127,8 @@ categories:
     en: Hair Dyeing
     sk: Farbenie
   services:
-  - name:
+  - id: Roots
+    name:
       en: Dyeing of roots
       sk: Farbenie odrastov
     tagline:
@@ -126,7 +136,8 @@ categories:
       sk: "+ fúkaná"
     prices:
     - 45+
-  - name:
+  - id: Full hair
+    name:
       en: Full hair dyeing
       sk: Farbenie celých vlasov
     tagline:
@@ -136,7 +147,8 @@ categories:
     - 55
     - 65
     - 75
-  - name:
+  - id: additional tube
+    name:
       en: for each additional tube of dye
       sk: každa druha farba
     tagline:
@@ -149,7 +161,8 @@ categories:
     en: Hair lightening / tinting
     sk: Melirovanie vlasov + tonovanie
   services:
-  - name:
+  - id: Simple lightening
+    name:
       en: Simple lightening
       sk: Jednoduchy melir
     tagline:
@@ -159,7 +172,8 @@ categories:
     - 60
     - 70
     - 80
-  - name:
+  - id: Baby highlights
+    name:
       en: Baby highlights (bleaching of roots)
       sk: Baby melir (odrasti)
     tagline:
@@ -167,7 +181,8 @@ categories:
       sk: "+ fúkaná"
     prices:
     - 70+
-  - name:
+  - id: Ombré
+    name:
       en: Ombré / balayage
       sk: Ombré / balayage
     tagline:
@@ -177,7 +192,8 @@ categories:
     - 90
     - 110
     - 130
-  - name:
+  - id: Full highlights
+    name:
       en: Full highlights
       sk: Fullhead melir
     tagline:
@@ -187,7 +203,8 @@ categories:
     - 110
     - 140
     - 160
-  - name:
+  - id: Color change
+    name:
       en: Color change / bleaching
       sk: Zmena farba / odfarbovanie
     tagline:
@@ -202,8 +219,9 @@ categories:
     en: Hair treatments
     sk: Vlasove kúry
   services:
-  - name:
-      en: Hair extensions and thickening
+  - id: Extensions and thickening
+    name:
+      en: Hair extensions & thickening
       sk: Predlžovanie a zahusťovanie
     tagline:
       en: using the micro-ring method
