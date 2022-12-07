@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - type: field_group
   name: title
-  label: title
+  label: Section Title
   fields:
   - type: text
     name: en
@@ -14,7 +14,7 @@ fields:
     label: sk
 - type: field_group
   name: tagline
-  label: tagline
+  label: Section subtitle
   fields:
   - type: text
     name: en
@@ -32,9 +32,10 @@ fields:
   - type: text
     name: sk
     label: sk
+  hidden: true
 - type: field_group
   name: hair-types
-  label: hair-types
+  label: Hair Types / Lengths
   fields:
   - type: list
     name: en
@@ -44,14 +45,16 @@ fields:
     label: sk
 - type: field_group_list
   name: categories
-  label: categories
+  label: Pricelist Categories
   fields:
   - type: text
     name: id
-    label: id
+    label: ID (not visible)
+    description: The ID is <strong>only</strong> visible in this editor, <strong>not</strong>
+      the website.
   - type: field_group
     name: name
-    label: name
+    label: Category Name
     fields:
     - type: text
       name: en
@@ -61,14 +64,16 @@ fields:
       label: sk
   - type: field_group_list
     name: services
-    label: services
+    label: Services
     fields:
     - type: text
       name: id
-      label: id
+      label: ID (not visible)
+      description: The ID is <strong>only</strong> visible in this editor, <strong>not</strong>
+        the website.
     - type: field_group
       name: name
-      label: name
+      label: Service Name
       fields:
       - type: text
         name: en
@@ -78,7 +83,7 @@ fields:
         label: sk
     - type: field_group
       name: tagline
-      label: tagline
+      label: Service description / subtitle
       fields:
       - type: text
         name: en
@@ -88,10 +93,13 @@ fields:
         label: sk
     - type: list
       name: prices
-      label: prices
+      label: Prices
+      description: "<strong>Add 1 price</strong> = same price, regardless of hair
+        length<br><strong>Add 3 prices</strong> = 1 price for each hair length, in
+        this order: short, medium, long"
 - type: field_group
   name: disclaimer
-  label: disclaimer
+  label: Disclaimer
   fields:
   - type: textarea
     name: en
@@ -99,3 +107,4 @@ fields:
   - type: text
     name: sk
     label: sk
+  description: This is a piece of text under the pricelist
