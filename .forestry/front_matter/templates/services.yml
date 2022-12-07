@@ -1,0 +1,88 @@
+---
+label: Services
+hide_body: true
+fields:
+- type: field_group
+  name: title
+  label: title
+  fields:
+  - type: text
+    name: en
+    label: en
+  - type: text
+    name: sk
+    label: sk
+- type: field_group
+  name: tagline
+  label: tagline
+  fields:
+  - type: text
+    name: en
+    label: en
+  - type: text
+    name: sk
+    label: sk
+- type: field_group
+  name: hair
+  label: hair
+  fields:
+  - type: text
+    name: en
+    label: en
+  - type: text
+    name: sk
+    label: sk
+- type: field_group
+  name: hair-types
+  label: hair-types
+  fields:
+  - type: list
+    name: en
+    label: en
+  - type: list
+    name: sk
+    label: sk
+- type: field_group_list
+  name: categories
+  label: categories
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: field_group_list
+    name: services
+    label: services
+    fields:
+    - type: field_group
+      name: name
+      label: name
+      fields:
+      - type: text
+        name: en
+        label: en
+      - type: text
+        name: sk
+        label: sk
+    - type: field_group
+      name: tagline
+      label: tagline
+      fields:
+      - type: text
+        name: en
+        label: en
+      - type: text
+        name: sk
+        label: sk
+    - type: list
+      name: prices
+      label: prices
+- type: field_group
+  name: disclaimer
+  label: disclaimer
+  fields:
+  - type: textarea
+    name: en
+    label: en
+  - type: text
+    name: sk
+    label: sk
