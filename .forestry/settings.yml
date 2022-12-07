@@ -7,12 +7,17 @@ sections:
 - type: document
   path: _data/navlinks.yml
   label: Navigation
-- type: document
-  path: _data/index.yml
-  label: Main
+- type: directory
+  path: assets/hair-product-logos
+  label: Product Logos
+  create: documents
+  match: "**/*"
 - type: document
   path: _data/services.yml
   label: Services
+- type: document
+  path: _data/index.yml
+  label: Everything else
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
