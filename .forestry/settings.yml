@@ -10,7 +10,7 @@ sections:
 - type: directory
   path: assets/hair-product-logos
   label: Product Logos
-  create: documents
+  create: all
   match: "**/*"
 - type: document
   path: _data/services.yml
