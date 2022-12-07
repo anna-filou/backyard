@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/navlinks-test.yml
   label: Navlink test
-  match: "**/*"
 - type: document
   path: _data/navlinks.yml
   label: Navigation

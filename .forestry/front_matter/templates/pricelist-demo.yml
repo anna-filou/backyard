@@ -1,0 +1,31 @@
+---
+label: Pricelist demo
+hide_body: true
+fields:
+- type: field_group_list
+  name: Pricelist
+  label: Pricelist
+  fields:
+  - type: field_group
+    name: name
+    label: name
+    fields:
+    - type: text
+      name: en
+      label: en
+    - type: text
+      name: sk
+      label: sk
+  - type: field_group
+    name: tagline
+    label: tagline
+    fields:
+    - type: text
+      name: en
+      label: en
+    - type: text
+      name: sk
+      label: sk
+  - type: list
+    name: prices
+    label: prices
