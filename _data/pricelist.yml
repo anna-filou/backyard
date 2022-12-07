@@ -6,10 +6,6 @@
     tagline: 
       en: Straight / wavy
       sk: do rovná / vlny na kefu
-    prices: 
-      - 10
-      - 15
-      - 20
 - name: 
     en: Haircuts
     sk: Strihy
@@ -21,6 +17,3 @@
       en: including wash & blow dry
       sk: + umytie + fúkaná
     prices: 
-      - 15
-      - 20
-      - 25
