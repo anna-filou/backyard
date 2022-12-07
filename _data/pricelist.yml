@@ -1,7 +1,7 @@
 ---
 - name: category 1
   services:
-  - name:
+  - name: demo eng service name
       en: demo eng service
       sk: slovak
     tagline:
