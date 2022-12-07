@@ -1,8 +1,11 @@
 ---
 - en: Products
   sk: Produkty
-  url: products
-    url2: test  
+  url: 
+    - name: 
+      price:
+    - name: 
+      price:
 - en: Location
   sk: Adresa
   url: location

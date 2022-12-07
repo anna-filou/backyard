@@ -1,11 +1,10 @@
-- name: 1
-  services: 
-    name: 1
-    tagline: 2
-- name: 2
-  services: 
-    name: 2
-    tagline: 
-      test1: 2
-      test2: 3
-    prices: 4
+- name: 
+    en: Wash & blow dry 
+    sk: Umytie & fúkaná
+  tagline: 
+    en: Straight / wavy
+    sk: do rovná / vlny na kefu
+  prices: 
+    - 10
+    - 15
+    - 20
