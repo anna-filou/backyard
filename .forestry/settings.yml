@@ -5,6 +5,9 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _data/pricelist.yml
+  label: Pricelist
+- type: document
   path: _data/navlinks.yml
   label: Navigation
 - type: document
