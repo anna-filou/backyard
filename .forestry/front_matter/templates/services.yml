@@ -90,3 +90,5 @@ fields:
     name: sk
     label: sk
   description: This is what’s written underneath the price table.
+pages:
+- _data/services.yml
