@@ -1,6 +1,8 @@
 ---
 - id: basics
   name:
+    en: Haircuts
+    sk: Strihy
   services: 
     - id: Umytie & fúkaná
       name: 
