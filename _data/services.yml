@@ -18,7 +18,8 @@ hair-types:
   - polodlhé
   - dlhé
 categories:
-- name: 
+- id: Basics / No title
+  name: 
     en: 
     sk: 
   services:
@@ -32,7 +33,8 @@ categories:
     - 10
     - 15
     - 20
-- name:
+- id: Haircuts
+  name:
     en: Haircuts
     sk: Strihy
   services:
@@ -74,7 +76,8 @@ categories:
       sk: strojček + umývanie
     prices:
     - 15
-- name:
+- id: Styling
+  name:
     en: Styling
     sk: Styling
   services:
@@ -110,7 +113,8 @@ categories:
       sk: po fúkanie
     prices:
     - 5
-- name:
+- id: Dyeing
+  name:
     en: Hair Dyeing
     sk: Farbenie
   services:
@@ -140,7 +144,8 @@ categories:
       sk: ak vaše vlasy a vzhľad vyžadujú viac ako jedna
     prices:
     - "+ 10"
-- name:
+- id: Tinting
+  name:
     en: Hair lightening / tinting
     sk: Melirovanie vlasov + tonovanie
   services:
@@ -192,7 +197,8 @@ categories:
     - 100
     - 160
     - 200
-- name:
+- id: Treatments
+  name:
     en: Hair treatments
     sk: Vlasove kúry
   services:
