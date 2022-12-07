@@ -43,14 +43,14 @@ fields:
   - type: list
     name: sk
     label: sk
-- type: field_group_list
+- type: field_group
   name: categories
   label: Categories
   fields:
   - type: text
     name: name
     label: Category Name
-  - type: field_group_list
+  - type: field_group
     name: services
     label: Services under category
     fields:
