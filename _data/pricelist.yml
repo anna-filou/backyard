@@ -1,10 +1,19 @@
-- name: 
-    en: Wash & blow dry 
+---
+- name:
+    en: demo eng service
+    sk: slovak
+  tagline:
+    en: description
+    sk: slovak description
+  prices:
+  - '1000'
+- name:
+    en: Wash & blow dry
     sk: Umytie & fúkaná
-  tagline: 
+  tagline:
     en: Straight / wavy
     sk: do rovná / vlny na kefu
-  prices: 
-    - 10
-    - 15
-    - 20
+  prices:
+  - 10
+  - 15
+  - 20
