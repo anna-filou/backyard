@@ -5,5 +5,7 @@
 - name: 2
   services: 
     name: 2
-    tagline: 3
+    tagline: 
+      test1: 2
+      test2: 3
     prices: 4
