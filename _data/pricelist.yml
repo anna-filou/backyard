@@ -1,14 +1,6 @@
 ---
-- name: category 1
+- id: category 1
   services:
-  # # this doesnt work:
-  # - name: demo eng service name
-  #     en: demo eng service
-  #     sk: slovak
-  # # this works but it has no name in forestry
-  # - name: 
-  #     en: demo eng service
-  #     sk: slovak
   - id: demo
     name:
       en: demo eng service
@@ -18,14 +10,19 @@
       sk: slovak description
     prices:
     - '1000'
-  - id: demo 2
-    name:
-      en: Wash & blow dry
-      sk: Umytie & fúkaná
+- id: Strihy
+  name: 
+    en: Haircuts
+    sk: Strihy
+  services: 
+  - id: Podstrihnutie
+    name: 
+      en: Undercut
+      sk: Podstrihnutie
     tagline:
-      en: Straight / wavy
-      sk: do rovná / vlny na kefu
-    prices:
-    - 10
+      en: including wash & blow dry
+      sk: + umytie + fúkaná
+    prices: 
     - 15
     - 20
+    - 25
