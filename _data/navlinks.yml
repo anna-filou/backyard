@@ -1,3 +1,4 @@
+---
 - en: Products
   sk: Produkty
   url: products
@@ -10,6 +11,6 @@
 - en: Reservation
   sk: Objednajte si termin
   url: reservation
-  below: '+421 919 18 18 83'
+  below: "+421 919 18 18 83"
   class: white
-  below-class: o-80 
+  below-class: o-80

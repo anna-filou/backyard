@@ -1,0 +1,22 @@
+---
+label: Navigation
+hide_body: true
+fields:
+- type: field_group_list
+  name: Navlinks
+  label: Navigation Links
+  fields:
+  - type: text
+    name: en
+    label: English
+  - type: text
+    name: sk
+    label: Slovak
+  - type: text
+    name: url
+    label: url
+    hidden: true
+  config:
+    labelField: sk
+pages:
+- _data/navlinks.yml
