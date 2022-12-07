@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: _data/pricelist copy.yml
+  label: pricelist copy demo
+  match: "**/*"
+- type: document
   path: _data/navlinks-test.yml
   label: Navlink test
 - type: document
