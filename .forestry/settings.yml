@@ -13,12 +13,6 @@ sections:
 - type: document
   path: _data/services.yml
   label: Services
-- type: jekyll-pages
-  label: Pages
-  create: all
-- type: jekyll-posts
-  label: Posts
-  create: all
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
