@@ -15,8 +15,7 @@ sections:
   label: Services
 - type: document
   path: _data/pricelist.yml
-  label: Cenník
-  match: "**/*"
+  label: Pricelist
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
