@@ -13,6 +13,10 @@ sections:
 - type: document
   path: _data/services.yml
   label: Services
+- type: document
+  path: _data/pricelist.yml
+  label: Cenník
+  match: "**/*"
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
