@@ -1,15 +1,17 @@
 ---
-- id: category 1
-  services:
-  - id: demo
-    name:
-      en: demo eng service
-      sk: slovak
-    tagline:
-      en: description
-      sk: slovak description
-    prices:
-    - '1000'
+- id: basics
+  name:
+  services: 
+  - name: 
+      en: Wash & blow dry 
+      sk: Umytie & fúkaná
+    tagline: 
+      en: Straight / wavy
+      sk: do rovná / vlny na kefu
+    prices: 
+    - 10
+    - 15
+    - 20
 - id: Strihy
   name: 
     en: Haircuts
