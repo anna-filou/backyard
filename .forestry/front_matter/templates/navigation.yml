@@ -4,14 +4,15 @@ hide_body: true
 fields:
 - type: field_group_list
   name: Navlinks
-  label: Navlinks
+  label: Navigation Links
   fields:
   - type: text
     name: en
-    label: en
+    label: English
   - type: text
     name: sk
-    label: sk
+    label: Slovak
   - type: text
     name: url
     label: url
+    hidden: true
