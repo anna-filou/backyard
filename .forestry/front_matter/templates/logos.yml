@@ -8,7 +8,7 @@ fields:
   fields:
   - type: text
     name: logo
-    label: logo
+    label: Brand Name
   - type: file
     name: path
-    label: path
+    label: Image (PNG or SVG)
