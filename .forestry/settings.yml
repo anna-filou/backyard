@@ -8,7 +8,7 @@ sections:
   path: _data/navlinks.yml
   label: Navigation
 - type: directory
-  path: assets/hair-product-logos
+  path: _data/logos.yml
   label: Product Logos
   create: all
   match: "**/*"
