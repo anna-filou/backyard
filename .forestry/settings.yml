@@ -7,10 +7,9 @@ sections:
 - type: document
   path: _data/navlinks.yml
   label: Navigation
-- type: directory
+- type: document
   path: _data/logos.yml
-  label: Product Logos
-  create: all
+  label: Logos
   match: "**/*"
 - type: document
   path: _data/services.yml
