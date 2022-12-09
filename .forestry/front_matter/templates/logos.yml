@@ -12,3 +12,5 @@ fields:
   - type: file
     name: path
     label: Image (PNG or SVG)
+pages:
+- _data/logos.yml
