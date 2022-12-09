@@ -1,0 +1,14 @@
+---
+label: Logos
+hide_body: true
+fields:
+- type: field_group_list
+  name: Logos
+  label: Logos
+  fields:
+  - type: text
+    name: logo
+    label: logo
+  - type: file
+    name: path
+    label: path

@@ -10,7 +10,6 @@ sections:
 - type: document
   path: _data/logos.yml
   label: Logos
-  match: "**/*"
 - type: document
   path: _data/services.yml
   label: Services
