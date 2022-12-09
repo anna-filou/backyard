@@ -30,12 +30,10 @@ layout: default
             <h2 class="f2">{{data.products.title[page.lang]}}</h2>
             <div class="script f1 f-subheadline-ns mt3-ns">{{data.products.tagline[page.lang]}}</div>
         </div>
-
-        <div class="logo-grid mv6 mv5-ns">
-            {% for image in site.static_files %}
-			{% if image.path contains 'assets/hair-product-logos' %}
-			<img src="{{image.path}}" alt="" class=""/>
-			{% endif %}
+        
+        <div class="logo-grid mv6 mv5-ns pa4-ns">
+            {% for logo in site.data.logos %}
+			<img src="{{logo.path}}" alt="" class=""/>
 		    {% endfor %}
         </div>
 
