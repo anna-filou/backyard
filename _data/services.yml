@@ -11,8 +11,8 @@ services:
       sk: Farbenie
     emoji: 🌈
     desc: 
-      en: We color your hair with quality dyes.
-      sk: Farbenie vlasov kvalitnými farbami.
+      en: We color your hair with quality dyes
+      sk: Farbenie vlasov kvalitnými farbami
     price: 
       en: from 30 €
       sk: od 30 €
@@ -22,8 +22,8 @@ services:
       sk: Strihanie
     emoji: ✂️
     desc: 
-      en: Haircuts for Ladies, Gentlemen and children. 
-      sk: Strihanie pre Dámy, Pánov&nbsp;a&nbsp;deti. 
+      en: Haircuts for Ladies, Gentlemen and children
+      sk: Strihanie pre Dámy, Pánov&nbsp;a&nbsp;deti
     price: 
       en: from 10 €
       sk: od 10 €
@@ -33,8 +33,8 @@ services:
       sk: Fúkanie
     emoji: 💨
     desc: 
-      en: Blow drying for short or longh&nbsp;air.
-      sk: Fúkana krátkych či dlhých&nbsp;vlasov.
+      en: Blow drying for short or longh&nbsp;air
+      sk: Fúkana krátkych či dlhých&nbsp;vlasov
     price: 
       en: from 15 €
       sk: od 15 €
@@ -44,8 +44,8 @@ services:
       sk: Vlasové kúry
     emoji: 💆‍♀️
     desc: 
-      en: Professional hair care and hair&nbsp;regeneration.
-      sk: Profesionálna starostlivosť o vlasy a regenerácia vlasov.
+      en: Professional hair care and hair&nbsp;regeneration
+      sk: Profesionálna starostlivosť o vlasy a regenerácia vlasov
     price: 
       en: from 25 €
       sk: od 25 €
