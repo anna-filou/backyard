@@ -1,0 +1,235 @@
+---
+title:
+  en: Services we offer
+  sk: Naše služby
+tagline:
+  en: price list
+  sk: cenník
+hair:
+  en: hair
+  sk: vlasy
+hair-types:
+  en:
+  - short
+  - medium
+  - long
+  sk:
+  - krátke
+  - polodlhé
+  - dlhé
+categories:
+- id: Basics / No title
+  name:
+    en: ''
+    sk: ''
+  services:
+  - id: Wash & blow dry
+    name:
+      en: Wash & blow dry
+      sk: Umytie & fúkaná
+    tagline:
+      en: Straight / wavy
+      sk: do rovná / vlny na kefu
+    prices:
+    - 10
+    - 15
+    - 20
+- id: Haircuts
+  name:
+    en: Haircuts
+    sk: Strihy
+  services:
+  - id: Undercut
+    name:
+      en: Undercut
+      sk: Podstrihnutie
+    tagline:
+      en: including wash & blow dry
+      sk: "+ umytie + fúkaná"
+    prices:
+    - 15
+    - 20
+    - 25
+  - id: Refresh hair cut
+    name:
+      en: Refresh hair cut
+      sk: Úprava strih
+    tagline:
+      en: including wash & blow dry
+      sk: "+ umytie + fúkaná"
+    prices:
+    - 20
+    - 25
+    - 30
+  - id: New cut
+    name:
+      en: New cut
+      sk: Zmena strih
+    tagline:
+      en: including wash & blow dry
+      sk: "+ umytie + fúkaná"
+    prices:
+    - 20
+    - 30
+    - 35
+  - id: Gentleman's haircut
+    name:
+      en: Gentleman's haircut
+      sk: Pansky strih
+    tagline:
+      en: with clipper + wash
+      sk: strojček + umývanie
+    prices:
+    - 15
+- id: Styling
+  name:
+    en: Styling
+    sk: Styling
+  services:
+  - id: Curling separate
+    name:
+      en: Curling
+      sk: Styling-natačanie
+    tagline:
+      en: as a separate service
+      sk: samostatné
+    prices:
+    - 25
+  - id: Curling after blow dry
+    name:
+      en: Curling
+      sk: Styling-natačanie
+    tagline:
+      en: after blow-drying
+      sk: po fúkanie
+    prices:
+    - 15
+  - id: Straightening separate
+    name:
+      en: Straightening
+      sk: Žehlenie vlasov
+    tagline:
+      en: as a separate service
+      sk: samostatné
+    prices:
+    - 10
+  - id: Straightening after blow dry
+    name:
+      en: Straightening
+      sk: Žehlenie vlasov
+    tagline:
+      en: after blow-drying
+      sk: po fúkanie
+    prices:
+    - 5
+- id: Dyeing
+  name:
+    en: Hair Dyeing
+    sk: Farbenie
+  services:
+  - id: Roots
+    name:
+      en: Dyeing of roots
+      sk: Farbenie odrastov
+    tagline:
+      en: including blow dry
+      sk: "+ fúkaná"
+    prices:
+    - 45+
+  - id: Full hair
+    name:
+      en: Full hair dyeing
+      sk: Farbenie celých vlasov
+    tagline:
+      en: including blow dry
+      sk: "+ fúkaná"
+    prices:
+    - 55
+    - 65
+    - 75
+  - id: additional tube
+    name:
+      en: for each additional tube of dye
+      sk: každa druha farba
+    tagline:
+      en: if your hair and look require more than one
+      sk: ak vaše vlasy a vzhľad vyžadujú viac ako jedna
+    prices:
+    - "+ 10"
+- id: Tinting
+  name:
+    en: Hair lightening / tinting
+    sk: Melirovanie vlasov + tonovanie
+  services:
+  - id: Simple lightening
+    name:
+      en: Simple lightening
+      sk: Jednoduchy melir
+    tagline:
+      en: including blow dry
+      sk: "+ fúkaná"
+    prices:
+    - 60
+    - 70
+    - 80
+  - id: Baby highlights
+    name:
+      en: Baby highlights (bleaching of roots)
+      sk: Baby melir (odrasti)
+    tagline:
+      en: including blow dry
+      sk: "+ fúkaná"
+    prices:
+    - 70+
+  - id: Ombré
+    name:
+      en: Ombré / balayage
+      sk: Ombré / balayage
+    tagline:
+      en: including blow dry
+      sk: "+ fúkaná"
+    prices:
+    - 90
+    - 110
+    - 130
+  - id: Full highlights
+    name:
+      en: Full highlights
+      sk: Fullhead melir
+    tagline:
+      en: including blow dry
+      sk: "+ fúkaná"
+    prices:
+    - 110
+    - 140
+    - 160
+  - id: Color change
+    name:
+      en: Color change / bleaching
+      sk: Zmena farba / odfarbovanie
+    tagline:
+      en: including blow dry
+      sk: "+ fúkaná"
+    prices:
+    - 100
+    - 160
+    - 200
+- id: Treatments
+  name:
+    en: Hair treatments
+    sk: Vlasove kúry
+  services:
+  - id: Extensions and thickening
+    name:
+      en: Hair extensions & thickening
+      sk: Predlžovanie a zahusťovanie
+    tagline:
+      en: using the micro-ring method
+      sk: vlasov metoda micro-ring
+    prices:
+    - "(*)"
+disclaimer:
+  en: "(*) Prices are approximate, and depend on the number of extensions, the density,
+    material, and length of hair."
+  sk: "(*) Ceny sú orientačné a závisia od počtu predĺžení a hustoty, materiálu a
+    dĺžky vlasov."
