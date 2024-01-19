@@ -153,8 +153,8 @@ h2 {
 
 
 .logo-grid {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
     gap: 30px 70px;
     grid-auto-flow: row;
     justify-content: center;
@@ -164,18 +164,24 @@ h2 {
   }
 
 .price-grid {
-    /* -moz-box-pack: justify; */
     column-gap: 0;
-    /* row-gap: 24px; */
     width: 100%;
     display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    justify-content: space-between;
-    /* margin-top: 24px; */
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
 }
-  
+
+.full {
+    /* grid-column: 1 / -1; // full row width, same as span 2 in this case */ 
+    grid-column: span 2;
+    
+}
+
+.column {
+    grid-column: span 1;
+}
+
 .price-blocks {
     display: flex;
     flex-direction: row;
@@ -238,11 +244,8 @@ hr {
   }
 
   .price-grid {
-    /* row-gap: 10px; */
-    grid-auto-columns: 1fr;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
-    justify-content: space-between;
     }
   
 }

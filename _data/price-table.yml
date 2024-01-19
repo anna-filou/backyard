@@ -1,0 +1,145 @@
+---
+title:
+  en: Services we offer
+  sk: Naše služby
+tagline:
+  en: price list
+  sk: cenník
+categories:
+  - id: coloring
+    name:
+      en: 'Coloring and Highlighting Techniques'
+      sk: 'Farbenie a melírovacie techniky'
+    services:
+      - id: root_coloring
+        name:
+          en: 'Root Coloring'
+          sk: 'Farbenie odrastov'
+        tagline:
+          en: 'root coloring, washing, regeneration, blow-dry'
+          sk: 'farbenie odrasti, umytie, regenerácia, fukaná'
+        prices:
+          - 50
+      - id: complete_short_hair_coloring
+        name:
+          en: 'Complete Coloring Short Hair'
+          sk: 'Farbenie komplet krátke vlasy'
+        tagline:
+          en: 'full hair coloring, washing, regeneration, blow-dry'
+          sk: 'farbenie cele vlasy, umytie, regenerácia, fukaná'
+        prices:
+          - 65
+      - id: complete_long_hair_coloring
+        name:
+          en: 'Complete Coloring Long Hair'
+          sk: 'Farbenie komplet dlhé vlasy'
+        tagline:
+          en: 'full hair coloring, washing, regeneration, blow-dry'
+          sk: 'farbenie cele vlasy, umytie, regenerácia, fukaná'
+        prices:
+          - 80
+      - id: balayage_sunkiss
+        name:
+          en: 'Balayage/Sunkiss'
+          sk: 'Balayage/Sunkiss'
+        tagline:
+          en: 'highlighting, toning, blow-dry, and final touch-up'
+          sk: 'melirovanie, tónovanie, fukaná a konečna úprava'
+        prices:
+          - 120
+          - 150
+      - id: full_head_highlighting
+        name:
+          en: 'Full Head Highlights/De-coloring'
+          sk: 'Full head melír/odfabovanie vlasov'
+        tagline:
+          en: 'dense highlights, toning, blow-dry, and final touch-up'
+          sk: 'hustý melir, tónovanie, fukaná a konečna úprava'
+        prices:
+          - 150
+          - 200
+      - id: olaplex_treatment_during_coloring
+        name:
+          en: 'Olaplex Treatment During Coloring/Highlighting'
+          sk: 'Ošetrenie počas fabenie/melirovanie vlasov - Olaplex dávka'
+        tagline:
+          en: 'Olaplex treatment addition'
+          sk: 'Olaplex dávka'
+        prices:
+          - '+30'
+  - id: hair_treatments
+    name:
+      en: 'Hair Treatments'
+      sk: 'Vlasové Kúry'
+    services:
+      - id: joico_kpak
+        name:
+          en: 'Joico K-PAK'
+          sk: 'K-PAK Joico'
+        tagline:
+          en: '4-step reconstruction treatment for damaged, dry, brittle hair without shine and vitality'
+          sk: '4 kroková rekonštrukčná kúra pre poškodené, suché, lámavé vlasy bez lesku a vitality'
+        prices:
+          - 40
+          - 50
+      - id: olaplex_hair_treatment
+        name:
+          en: 'Olaplex Hair Treatment'
+          sk: 'Olaplex-ošetrujúca vlasová kúra'
+        tagline:
+          en: 'Caring hair treatment that repairs disulfide bonds damaged by coloring or heat'
+          sk: 'ošetrujúca vlasová kúra, ktorá opravuje disulfidové vlákna vo vlasoch poškodené farbením alebo teplom'
+        prices:
+          - 40
+          - 50
+  - id: haircuts_and_styling
+    name:
+      en: 'Haircuts and Styling'
+      sk: 'Strihy a úprava vlasov'
+    services:
+      - id: blow_dry_short_long
+        name:
+          en: 'Blow-dry Short/Long Hair'
+          sk: 'Fúkaná kratke/dlhe vlasy'
+        tagline:
+          en: 'Blow-dry service for short or long hair'
+          sk: 'Fúkaná pre kratke alebo dlhe vlasy'
+        prices:
+          - 15
+          - 20
+      - id: womens_haircut
+        name:
+          en: 'Women’s Haircut'
+          sk: 'Dámsky strih'
+        tagline:
+          en: 'Washing, cutting, blow-dry'
+          sk: 'umytie, strihanie, fúkaná'
+        prices:
+          - 30
+      - id: haircut_with_service
+        name:
+          en: 'Haircut with Service'
+          sk: 'Strihanie vlasov k sluzbe'
+        tagline:
+          en: 'Haircut as an additional service'
+          sk: 'Strihanie ako doplnková služba'
+        prices:
+          - 15
+      - id: mens_haircut
+        name:
+          en: 'Men’s Haircut'
+          sk: 'Pánsky strih'
+        tagline:
+          en: 'Men’s haircut service'
+          sk: 'Pánske strihanie'
+        prices:
+          - 15
+      - id: mens_coloring
+        name:
+          en: 'Men’s Coloring'
+          sk: 'Farbenie pánske'
+        tagline:
+          en: 'Hair coloring service for men'
+          sk: 'Farbenie vlasov pre mužov'
+        prices:
+          - 20

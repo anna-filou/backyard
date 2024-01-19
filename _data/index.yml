@@ -22,6 +22,9 @@ products:
   tagline: 
     en: only the best for your hair
     sk: len to najlepsie pre vase vlasy
+services: 
+  price-blocks: hide # will be shown only if it says "show"
+  price-table: show # will be shown only if it says "show"
 location: 
   script: 
     en: find us
@@ -40,17 +43,17 @@ hours:
     sk: Otvarácie hodiny
   lines: 
     - days: 
-        en: Monday—Friday
-        sk: Pondelok–piatok
-      hours: 
-        en: 9:00–15:00
-        sk: 9:00–15:00
-    - days: 
-        en: Saturday & Sunday
-        sk: Sobota & Nedeľa
+        en: Monday—Saturday
+        sk: Pondelok–Sobota
       hours: 
         en: by&nbsp;appointment
-        sk: na&nbsp;objednávku
+        sk: na&nbsp;objednávky
+    # - days: 
+    #     en: Saturday & Sunday
+    #     sk: Sobota & Nedeľa
+    #   hours: 
+    #     en: by&nbsp;appointment
+    #     sk: na&nbsp;objednávku
     - days: 
         en: Contact us
         sk: Kontaktujte nás

@@ -1,0 +1,27 @@
+<section id="services" class="light pv6">
+    <div class="">
+        <div class="section">
+            <div class="flex flex-column flex-row-ns justify-between mb5">
+                <h2 class="f2 mb0">{{site.data.price-blocks.title[page.lang]}}</h2>
+                <div class="script f-headline pl6">{{site.data.price-blocks.tagline[page.lang]}}</div>
+            </div>
+
+            <div class="price-blocks">
+                {%- for service in site.data.price-blocks.services -%}
+                <div class="price-block">
+                    <div class="w-100">
+                        <div class="flex justify-between items-center w-100 mb3">
+                            <h3 class="dib mv0 f4">{{ service.title[page.lang] }}</h3>
+                            <div class="light emoji flex items-center justify-center">{{ service.emoji }}</div>
+                        </div>
+                        <div class="o-70 measure f4">{{ service.desc[page.lang] }}</div>
+                    </div>
+                    <div class="b dark-gold f4">{{ service.price[page.lang] }}</div>
+                </div>
+                {%- endfor -%}
+            </div>
+
+            <img src="/assets/services-deco.svg" alt="" class="db center mt6">
+        </div>
+    </div>
+</section>

@@ -1,0 +1,40 @@
+<section id="services" class="light pv6">
+    <div class="section">
+        <div class="flex flex-column flex-row-ns justify-between mb2-ns mb4">
+            <h2 class="f2 mb0">{{site.data.price-table.title[page.lang]}}</h2>
+            <div class="script f-headline pl6">{{site.data.price-table.tagline[page.lang]}}</div>
+        </div>
+
+
+        <div class="price-grid"> 
+            
+            {%- for category in site.data.price-table.categories -%}
+                {%- if category.name -%}
+                <h3 class="mt4 mb2 pv3 pl3 f4 ttu tracked bg-black-05 o-70 fw4 full tc">{{category.name[page.lang]}}</h3>
+                {%- endif -%}
+
+                {%- for service in category.services -%}
+                <div class="bb-ns bw1-ns b--black-10 pt3 pb0 pb3-ns column">
+                    <h4 class="f4 mt0 mb2">{{service.name[page.lang]}}</h4>
+                    <div class="f4 o-70">{{service.tagline[page.lang]}}</div>
+                </div>
+                <div class="flex flex-row justify-around items-center f3 bb bw1 b--black-10 pt3 pb4 pb3-ns mb3 mb0-ns column">
+                    {%- if service.prices[1] -%}
+                        <div><span class="b">{{service.prices[0]}}</span>&nbsp;<span class="black-40">– </span> <span class="b">{{service.prices[1] }} </span><span class="black-40"> € </span> </div>
+                    {%- else -%}
+                        {%- for price in service.prices -%}
+                        <div><span class="b">{{price}}</span>&nbsp;<span class="black-40">€</span></div>
+                        {%- endfor -%}
+                    {%- endif -%}
+                </div>
+                {%- endfor -%}
+                
+            {%- endfor -%}
+
+        </div>
+        <div class="measure mt5 f4 fw3 ml3">
+            {{site.data.price-table.disclaimer[page.lang]}}
+        </div>
+        <img src="/assets/services-deco.svg" alt="" class="db center mt6">
+    </div>
+</section>
