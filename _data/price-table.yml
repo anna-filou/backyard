@@ -16,8 +16,8 @@ categories:
           en: 'Root Coloring'
           sk: 'Farbenie odrastov'
         tagline:
-          en: 'root coloring, washing, regeneration, blow-dry'
-          sk: 'farbenie odrasti, umytie, regenerácia, fukaná'
+          en: 'Root coloring, washing, regeneration, blow-dry. Average service duration: approx. 1-1.5 hours.'
+          sk: 'Farbenie odrasti, umytie, regenerácia, fukaná. Priemerna služba trvá cca 1-1,5 hodiny.'
         prices:
           - 50
       - id: complete_short_hair_coloring
@@ -25,8 +25,8 @@ categories:
           en: 'Complete Coloring Short Hair'
           sk: 'Farbenie komplet krátke vlasy'
         tagline:
-          en: 'full hair coloring, washing, regeneration, blow-dry'
-          sk: 'farbenie cele vlasy, umytie, regenerácia, fukaná'
+          en: 'Full hair coloring, washing, regeneration, blow-dry. Average service duration: approx. 1.5-2 hours.'
+          sk: 'Farbenie cele vlasy, umytie, regenerácia, fukaná. Priemerna služba trvá cca 1,5-2 hodiny.'
         prices:
           - 65
       - id: complete_long_hair_coloring
@@ -34,8 +34,8 @@ categories:
           en: 'Complete Coloring Long Hair'
           sk: 'Farbenie komplet dlhé vlasy'
         tagline:
-          en: 'full hair coloring, washing, regeneration, blow-dry'
-          sk: 'farbenie cele vlasy, umytie, regenerácia, fukaná'
+          en: 'Full hair coloring, washing, regeneration, blow-dry. Average service duration: approx. 1.5-2 hours.'
+          sk: 'Farbenie cele vlasy, umytie, regenerácia, fukaná. Priemerna služba trvá cca 1,5-2 hodiny.'
         prices:
           - 80
       - id: balayage_sunkiss
@@ -43,8 +43,8 @@ categories:
           en: 'Balayage/Sunkiss'
           sk: 'Balayage/Sunkiss'
         tagline:
-          en: 'highlighting, toning, blow-dry, and final touch-up'
-          sk: 'melirovanie, tónovanie, fukaná a konečna úprava'
+          en: 'Highlighting, toning, blow-dry, and final touch-up. Average service duration: approx. 3-4 hours.'
+          sk: 'Melirovanie, tónovanie, fukaná a konečna úprava. Priemerna služba trvá cca 3-4 hodiny.'
         prices:
           - 120
           - 150
@@ -53,8 +53,8 @@ categories:
           en: 'Full Head Highlights/De-coloring'
           sk: 'Full head melír/odfabovanie vlasov'
         tagline:
-          en: 'dense highlights, toning, blow-dry, and final touch-up'
-          sk: 'hustý melir, tónovanie, fukaná a konečna úprava'
+          en: 'Dense highlights, toning, blow-dry, and final touch-up. Average service duration: approx. 4-6 hours.'
+          sk: 'Hustý melir, tónovanie, fukaná a konečna úprava. Priemerna služba trvá cca 4-6 hodiny.'
         prices:
           - 150
           - 200
@@ -63,8 +63,8 @@ categories:
           en: 'Olaplex Treatment During Coloring/Highlighting'
           sk: 'Ošetrenie počas fabenie/melirovanie vlasov - Olaplex dávka'
         tagline:
-          en: 'Olaplex treatment addition'
-          sk: 'Olaplex dávka'
+          en: 'Olaplex treatment addition. Average service duration varies.'
+          sk: 'Olaplex dávka. Priemerna služba trvá rôzne.'
         prices:
           - '+30'
   - id: hair_treatments
@@ -77,8 +77,8 @@ categories:
           en: 'Joico K-PAK'
           sk: 'K-PAK Joico'
         tagline:
-          en: '4-step reconstruction treatment for damaged, dry, brittle hair without shine and vitality'
-          sk: '4 kroková rekonštrukčná kúra pre poškodené, suché, lámavé vlasy bez lesku a vitality'
+          en: '4-step reconstruction treatment for damaged, dry, brittle hair without shine and vitality. Average service duration: approx. 60 minutes.'
+          sk: '4 kroková rekonštrukčná kúra pre poškodené, suché, lámavé vlasy bez lesku a vitality. Priemerna služba trvá cca 60 min.'
         prices:
           - 40
           - 50
@@ -87,8 +87,8 @@ categories:
           en: 'Olaplex Hair Treatment'
           sk: 'Olaplex-ošetrujúca vlasová kúra'
         tagline:
-          en: 'Caring hair treatment that repairs disulfide bonds damaged by coloring or heat'
-          sk: 'ošetrujúca vlasová kúra, ktorá opravuje disulfidové vlákna vo vlasoch poškodené farbením alebo teplom'
+          en: 'Caring hair treatment that repairs disulfide bonds damaged by coloring or heat. Average service duration: approx. 60 minutes.'
+          sk: 'Ošetrujúca vlasová kúra, ktorá opravuje disulfidové vlákna vo vlasoch poškodené farbením alebo teplom. Priemerna služba trvá cca 60 min.'
         prices:
           - 40
           - 50
@@ -102,8 +102,8 @@ categories:
           en: 'Blow-dry Short/Long Hair'
           sk: 'Fúkaná kratke/dlhe vlasy'
         tagline:
-          en: 'Blow-dry service for short or long hair'
-          sk: 'Fúkaná pre kratke alebo dlhe vlasy'
+          en: 'Blow-dry service for short or long hair. Average service duration: approx. 30 minutes.'
+          sk: 'Fúkaná pre kratke alebo dlhe vlasy. Priemerna služba trvá cca 30 min.'
         prices:
           - 15
           - 20
@@ -112,8 +112,8 @@ categories:
           en: 'Women’s Haircut'
           sk: 'Dámsky strih'
         tagline:
-          en: 'Washing, cutting, blow-dry'
-          sk: 'umytie, strihanie, fúkaná'
+          en: 'Washing, cutting, blow-dry. Average service duration: approx. 60 minutes.'
+          sk: 'Umytie, strihanie, fúkaná. Priemerna služba trvá cca 60 min.'
         prices:
           - 30
       - id: haircut_with_service
@@ -121,8 +121,8 @@ categories:
           en: 'Haircut with Service'
           sk: 'Strihanie vlasov k sluzbe'
         tagline:
-          en: 'Haircut as an additional service'
-          sk: 'Strihanie ako doplnková služba'
+          en: 'Haircut as an additional service. Duration varies.'
+          sk: 'Strihanie ako doplnková služba. Trvanie rôzne.'
         prices:
           - 15
       - id: mens_haircut
@@ -130,8 +130,8 @@ categories:
           en: 'Men’s Haircut'
           sk: 'Pánsky strih'
         tagline:
-          en: 'Men’s haircut service'
-          sk: 'Pánske strihanie'
+          en: 'Men’s haircut service. Average service duration: approx. 60 minutes.'
+          sk: 'Pánske strihanie. Priemerna služba trvá cca 60 min.'
         prices:
           - 15
       - id: mens_coloring
@@ -139,7 +139,7 @@ categories:
           en: 'Men’s Coloring'
           sk: 'Farbenie pánske'
         tagline:
-          en: 'Hair coloring service for men'
-          sk: 'Farbenie vlasov pre mužov'
+          en: 'Hair coloring service for men. Duration varies.'
+          sk: 'Farbenie vlasov pre mužov. Trvanie rôzne.'
         prices:
           - 20

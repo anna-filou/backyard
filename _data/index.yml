@@ -46,14 +46,14 @@ hours:
         en: Monday—Saturday
         sk: Pondelok–Sobota
       hours: 
-        en: by&nbsp;appointment
-        sk: na&nbsp;objednávky
-    # - days: 
-    #     en: Saturday & Sunday
-    #     sk: Sobota & Nedeľa
-    #   hours: 
-    #     en: by&nbsp;appointment
-    #     sk: na&nbsp;objednávku
+        en: By&nbsp;appointment
+        sk: Na&nbsp;objednávky
+    - days: 
+        en: Sunday
+        sk: Nedeľa
+      hours: 
+        en: Closed
+        sk: Zatvorené
   contact: 
     en: Contact us
     sk: Kontaktujte nás
