@@ -102,6 +102,7 @@ layout: default
             {%- for line in data.hours.lines -%}
                 <p>{{line.days[page.lang]}}: <span class="white">{{line.hours[page.lang]}}</span></p>
             {%- endfor -%}
+            <p>{{data.hours.contact[page.lang]}}: <span class="white"><a href="mailto:{{data.hours.email}}?subject=Objednávky" class="dim underline">{{data.hours.email}}</a></span></p>
         </div>
     </div>
 </section>
